@@ -145,10 +145,10 @@ void PAudioPipe::getDeviceInfo(unsigned int &index) {
     printf("Input channels: %i\n", info->maxInputChannels);
     printf("Output channels: %i\n", info->maxOutputChannels);
     printf("Default sampling rate (Hz): %f\n", info->defaultSampleRate);
-    printf("Default low input latency: %f\n", info->defaultLowInputLatency);
-    printf("Default low input latency: %f\n", info->defaultLowOutputLatency);
-    printf("Default high input latency: %f\n", info->defaultHighInputLatency);
-    printf("Default high output latency: %f\n", info->defaultHighOutputLatency);
+    printf("Default low input latency (s): %f\n", info->defaultLowInputLatency);
+    printf("Default low input latency (s): %f\n", info->defaultLowOutputLatency);
+    printf("Default high input latency (s): %f\n", info->defaultHighInputLatency);
+    printf("Default high output latency (s): %f\n", info->defaultHighOutputLatency);
 }
 
 void PAudioPipe::startStream() {
