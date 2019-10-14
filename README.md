@@ -115,5 +115,5 @@ You can compare the **Pass** output with others to get the idea of what differen
 
 ## References/Help:
   * PortAudio documentation
-  * Several stack-overflow posts / google search results related to PortAudio
+  * Several stack-overflow posts / Google search results related to PortAudio
   * DSP textbook / online DSP course by Martin Vetterli
