@@ -113,7 +113,7 @@ You can compare the **Pass** output with others to get the idea of what differen
     * The project does not use raw pointers for dynamic memory allocation - that's where they are most dangerous (memory leaks, crashes).
     * Use of raw pointers in local scope to point to audio buffers provided by the underlying audio library (portaudio) is I think better than just using smart pointers for the sake of just using them.
 
-References/Help:
-* PortAudio documentation
-* Several stack-overflow posts / google search results related to PortAudio
-* DSP textbook / online DSP course by Martin Vetterli
+## References/Help:
+  * PortAudio documentation
+  * Several stack-overflow posts / google search results related to PortAudio
+  * DSP textbook / online DSP course by Martin Vetterli
